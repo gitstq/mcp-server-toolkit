@@ -1,6 +1,7 @@
 # MCP Server Toolkit
 
 <p align="center">
+  <a href="https://github.com/gitstq/mcp-server-toolkit/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Download-v1.0.0-brightgreen?style=flat-square" alt="Download"></a>
   <img src="https://img.shields.io/npm/v/mcp-server-toolkit?style=flat-square" alt="npm version">
   <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen?style=flat-square" alt="Node.js">
   <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License">
@@ -29,6 +30,12 @@
 | 🚀 **One-Click Deploy** | Deploy to local, Docker, Vercel, or Fly.io platforms |
 | 📦 **Project Init** | Bootstrap new MCP server projects from templates |
 | 🗂️ **Server Registry** | Built-in registry of 18+ official and popular MCP servers |
+
+---
+
+## 📥 Download
+
+Get the latest release: **[v1.0.0](https://github.com/gitstq/mcp-server-toolkit/releases/tag/v1.0.0)**
 
 ---
 
