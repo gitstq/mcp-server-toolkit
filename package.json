@@ -1,0 +1,53 @@
+{
+  "name": "mcp-server-toolkit",
+  "version": "1.0.0",
+  "description": "MCP Server Toolkit - Discover, test, and deploy MCP servers with ease",
+  "type": "module",
+  "bin": {
+    "mcp-toolkit": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "lint": "eslint src/",
+    "format": "prettier --write \"src/**/*.js\" \"bin/**/*.js\" \"tests/**/*.js\"",
+    "build": "node scripts/build.js",
+    "prepublishOnly": "node scripts/build.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "ai",
+    "llm",
+    "toolkit",
+    "cli"
+  ],
+  "author": "gitstq",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitstq/mcp-server-toolkit"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "inquirer": "^11.1.0",
+    "ora": "^9.1.0",
+    "semver": "^7.7.1",
+    "yaml": "^2.7.1",
+    "axios": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "eslint": "^9.24.0",
+    "prettier": "^3.5.3"
+  },
+  "optionalDependencies": {
+    "keytar": "^7.9.0"
+  }
+}

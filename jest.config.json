@@ -1,0 +1,14 @@
+{
+  "preset": "node14",
+  "testEnvironment": "node",
+  "roots": ["<rootDir>/tests"],
+  "testMatch": ["**/*.test.js"],
+  "collectCoverageFrom": [
+    "src/**/*.js",
+    "!src/**/*.test.js",
+    "bin/**/*.js"
+  ],
+  "coverageDirectory": "coverage",
+  "verbose": true,
+  "transform": {}
+}
